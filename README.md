@@ -1,0 +1,2 @@
+# chrome_extension_nature_remo
+NatureRemoAPIからエアコンの状態などを取得し信号を送る
