@@ -4,9 +4,9 @@
     "description": "Controller of AirCon with Nature Remo.",
     "version": "1.0",
     "icons": {
-        "32": "icon_32.png",
-        "48": "icon_48.png",
-        "128": "icon_128.png"
+        "32": "assets/icon_32.png",
+        "48": "assets/icon_48.png",
+        "128": "assets/icon_128.png"
     },
     "content_scripts": [
         {
@@ -15,7 +15,7 @@
                 "https://*/*"
             ],
             "js": [
-                "content_scripts.js"
+                "scripts/content_scripts.js"
             ],
             "css": [
                 "content_scripts.css"
@@ -23,11 +23,10 @@
         }
     ],
     "background": {
-        "scripts": [
-        ]
+        "scripts": []
     },
     "browser_action": {
-        "default_icon": "icon_32.png",
+        "default_icon": "assets/icon_32.png",
         "default_title": "",
         "default_popup": "popup.html"
     },
