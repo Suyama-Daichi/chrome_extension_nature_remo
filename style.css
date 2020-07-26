@@ -1,0 +1,15 @@
+.toggle {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 20px !important;
+}
+
+.snow {
+    color: turquoise;
+}
